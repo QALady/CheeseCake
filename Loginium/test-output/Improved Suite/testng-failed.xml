@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Improved Suite]" parallel="methods">
+  <parameter name="driverSettingID" value="chrome"/>
+  <test name="Chrome">
+    <parameter name="driverSettingID" value="chrome"/>
+    <classes>
+      <class name="DashboardTest.LoginTest"/>
+    </classes>
+  </test> <!-- Chrome -->
+</suite> <!-- Failed suite [Improved Suite] -->

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Improved Suite" duration-ms="104803" started-at="2016-05-05T11:38:13Z" finished-at="2016-05-05T11:39:58Z">
+    <groups>
+    </groups>
+    <test name="Chrome" duration-ms="104803" started-at="2016-05-05T11:38:13Z" finished-at="2016-05-05T11:39:58Z">
+      <class name="DashboardTest.LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeSuite" is-config="true" duration-ms="751" started-at="2016-05-05T18:38:12Z" finished-at="2016-05-05T18:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="20013" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:38:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="10311" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:38:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="22974" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:38:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="55300" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:39:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="8670" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:38:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="96115" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="48392" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:39:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="30519" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:38:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="77121" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:39:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="beforeMethod" is-config="true" duration-ms="3234" started-at="2016-05-05T18:38:13Z" finished-at="2016-05-05T18:38:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login4()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login4" duration-ms="79278" started-at="2016-05-05T18:38:16Z" finished-at="2016-05-05T18:39:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login4 -->
+        <test-method status="PASS" signature="Login7()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login7" duration-ms="78337" started-at="2016-05-05T18:38:22Z" finished-at="2016-05-05T18:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login7 -->
+        <test-method status="PASS" signature="Login6()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login6" duration-ms="75216" started-at="2016-05-05T18:38:23Z" finished-at="2016-05-05T18:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login6 -->
+        <test-method status="PASS" signature="Login5()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login5" duration-ms="66999" started-at="2016-05-05T18:38:33Z" finished-at="2016-05-05T18:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login5 -->
+        <test-method status="PASS" signature="Login10()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login10" duration-ms="65178" started-at="2016-05-05T18:38:36Z" finished-at="2016-05-05T18:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login10 -->
+        <test-method status="PASS" signature="Login9()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login9" duration-ms="57755" started-at="2016-05-05T18:38:43Z" finished-at="2016-05-05T18:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login9 -->
+        <test-method status="PASS" signature="Login8()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login8" duration-ms="41196" started-at="2016-05-05T18:39:01Z" finished-at="2016-05-05T18:39:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login8 -->
+        <test-method status="PASS" signature="Login2()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login2" duration-ms="30417" started-at="2016-05-05T18:39:08Z" finished-at="2016-05-05T18:39:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login2 -->
+        <test-method status="PASS" signature="Login3()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login3" duration-ms="16690" started-at="2016-05-05T18:39:30Z" finished-at="2016-05-05T18:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login3 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="13993" started-at="2016-05-05T18:39:35Z" finished-at="2016-05-05T18:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login4()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="11039" started-at="2016-05-05T18:39:38Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login6()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="10850" started-at="2016-05-05T18:39:39Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login2()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="9559" started-at="2016-05-05T18:39:40Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login7()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="9554" started-at="2016-05-05T18:39:40Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login5()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="8464" started-at="2016-05-05T18:39:41Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login10()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="8231" started-at="2016-05-05T18:39:41Z" finished-at="2016-05-05T18:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login9()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="7049" started-at="2016-05-05T18:39:43Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login8()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="2786" started-at="2016-05-05T18:39:47Z" finished-at="2016-05-05T18:39:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login3()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Login1()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="Login1" duration-ms="6829" started-at="2016-05-05T18:39:49Z" finished-at="2016-05-05T18:39:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login1 -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:DashboardTest.LoginTest@3d8c7aca]" test-instance-name="" name="afterMethod" is-config="true" duration-ms="1839" started-at="2016-05-05T18:39:56Z" finished-at="2016-05-05T18:39:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name="" status=SUCCESS method=LoginTest.Login1()[pri:0, instance:DashboardTest.LoginTest@3d8c7aca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- DashboardTest.LoginTest -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Improved Suite -->
+</testng-results>
