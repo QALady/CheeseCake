@@ -85,7 +85,5 @@ public class LoginTest extends TestBase{
 		LoginPage loginPage = LoginPage.init();		
 		Thread.sleep(2500);
 		loginPage.loginWithInValidAccount("administrator", "1", "TestRepository");		
-	}
-	
-	
+	}	
 }

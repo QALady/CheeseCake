@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Improved Suite]" parallel="methods">
-  <parameter name="driverSettingID" value="chrome"/>
-  <test name="Chrome">
-    <parameter name="driverSettingID" value="chrome"/>
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Improved Suite]" parallel="methods">
+  <parameter name="driverSettingID" value="iPad"/>
+  <test name="iPad">
+    <parameter name="driverSettingID" value="iPad"/>
     <classes>
       <class name="DashboardTest.LoginTest"/>
     </classes>
-  </test> <!-- Chrome -->
+  </test> <!-- iPad -->
+  <test name="iPad(failed)" parallel="methods">
+    <parameter name="driverSettingID" value="iPad"/>
+    <classes>
+      <class name="DashboardTest.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="Login1"/>
+        </methods>
+      </class> <!-- DashboardTest.LoginTest -->
+    </classes>
+  </test> <!-- iPad(failed) -->
 </suite> <!-- Failed suite [Improved Suite] -->
