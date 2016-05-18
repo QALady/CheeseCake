@@ -1,60 +1,837 @@
-05-09-2016 9:54:13 AM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e50c791: startup date [Mon May 09 09:54:13 ICT 2016]; root of context hierarchy
-05-09-2016 9:54:13 AM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
-05-09-2016 9:54:14 AM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
-05-09-2016 9:54:14 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:54:14 AM [INFO] - com.loginium.testng.LoginiumTestListener - ================= START TEST ================
-05-09-2016 9:54:14 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:54:14 AM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: SAFARI, version: , platform: IOS}]
-05-09-2016 9:54:16 AM [INFO] - com.loginium.testng.LoginiumTestListener - A new session could not be created. Details: The desiredCapabilities object was not valid for the following reason(s): browserName SAFARI is not included in the list. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 684 milliseconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'lgvn13460', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: io.appium.java_client.ios.IOSDriver
-05-09-2016 9:54:16 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:54:16 AM [INFO] - com.loginium.testng.LoginiumTestListener - ================= END TEST ================
-05-09-2016 9:54:16 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:55:20 AM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@58a9760d: startup date [Mon May 09 09:55:20 ICT 2016]; root of context hierarchy
-05-09-2016 9:55:20 AM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
-05-09-2016 9:55:20 AM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
-05-09-2016 9:55:20 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:55:20 AM [INFO] - com.loginium.testng.LoginiumTestListener - ================= START TEST ================
-05-09-2016 9:55:20 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:55:20 AM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: SAFARI, version: , platform: IOS}]
-05-09-2016 9:55:37 AM [INFO] - com.loginium.testng.LoginiumTestListener - An unknown server-side error occurred while processing the command. Original error: No sim found with udid 39f7ec0f9de482eaf602086785d654b6f35860d0 (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 15.70 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'lgvn13460', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: io.appium.java_client.ios.IOSDriver
-05-09-2016 9:55:37 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:55:37 AM [INFO] - com.loginium.testng.LoginiumTestListener - ================= END TEST ================
-05-09-2016 9:55:37 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:56:19 AM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e50c791: startup date [Mon May 09 09:56:19 ICT 2016]; root of context hierarchy
-05-09-2016 9:56:19 AM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
-05-09-2016 9:56:19 AM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
-05-09-2016 9:56:19 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:56:19 AM [INFO] - com.loginium.testng.LoginiumTestListener - ================= START TEST ================
-05-09-2016 9:56:19 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:56:19 AM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: SAFARI, version: , platform: IOS}]
-05-09-2016 9:56:36 AM [INFO] - com.loginium.testng.LoginiumTestListener - An unknown server-side error occurred while processing the command. Original error: Could not find button to launch Safari. Make sure you are using the latest version of SafariLauncher that appium is using (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 16.28 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'lgvn13460', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: io.appium.java_client.ios.IOSDriver
-05-09-2016 9:56:36 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 9:56:36 AM [INFO] - com.loginium.testng.LoginiumTestListener - ================= END TEST ================
-05-09-2016 9:56:36 AM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 1:14:29 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4e50c791: startup date [Mon May 09 13:14:29 ICT 2016]; root of context hierarchy
-05-09-2016 1:14:29 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
-05-09-2016 1:14:30 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
-05-09-2016 1:14:30 PM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 1:14:30 PM [INFO] - com.loginium.testng.LoginiumTestListener - ================= START TEST ================
-05-09-2016 1:14:30 PM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 1:14:30 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: SAFARI, version: , platform: IOS}]
-05-09-2016 1:14:49 PM [INFO] - com.loginium.testng.LoginiumTestListener - An unknown server-side error occurred while processing the command. Original error: Could not find button to launch Safari. Make sure you are using the latest version of SafariLauncher that appium is using (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 18.88 seconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'lgvn13460', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_91'
-Driver info: io.appium.java_client.ios.IOSDriver
-05-09-2016 1:14:49 PM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
-05-09-2016 1:14:49 PM [INFO] - com.loginium.testng.LoginiumTestListener - ================= END TEST ================
-05-09-2016 1:14:49 PM [INFO] - com.loginium.testng.LoginiumTestListener - =============================================
+05-17-2016 9:56:05 AM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 09:56:05 ICT 2016]; root of context hierarchy
+05-17-2016 9:56:05 AM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 9:56:06 AM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 9:56:06 AM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 9:56:07 AM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 9:56:12 AM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [get Displayed status: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [got Displayed status "true": By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [click: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [click: By.xpath: //button[@title='close']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 9:56:15 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 9:56:16 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 9:56:16 AM [INFO] - com.loginium.element.Element [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [move to: By.xpath: //a[text()='Home']]
+05-17-2016 9:56:16 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 9:56:16 AM [INFO] - com.loginium.driver.DriverBase [Thread ID: 14 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 1:24:09 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 13:24:09 ICT 2016]; root of context hierarchy
+05-17-2016 1:24:09 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 1:24:10 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 1:24:10 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 1:24:11 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 1:24:17 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 1:24:21 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 1:24:21 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 1:24:22 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 1:24:22 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 1:24:22 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 1:24:22 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 1:24:55 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5066d65f: startup date [Tue May 17 13:24:55 ICT 2016]; root of context hierarchy
+05-17-2016 1:24:55 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 1:24:55 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 1:24:55 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 1:25:02 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 1:25:07 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 1:25:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 1:25:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 1:25:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:25:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 1:25:13 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 1:25:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 1:25:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 1:25:14 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 1:25:50 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7e276594: startup date [Tue May 17 13:25:50 ICT 2016]; root of context hierarchy
+05-17-2016 1:25:50 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 1:25:51 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 1:25:51 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 1:25:51 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 1:25:56 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 1:26:16 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 1:26:16 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:26:16 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:26:16 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 1:26:16 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:26:16 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:26:17 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 1:26:17 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:26:17 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 1:26:17 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 1:26:29 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 1:26:29 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 1:26:29 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 1:26:29 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:07:22 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:07:22 ICT 2016]; root of context hierarchy
+05-17-2016 2:07:22 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:07:22 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:07:22 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:07:23 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:07:28 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:07:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:07:33 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:07:33 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:07:33 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:07:33 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:07:56 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5066d65f: startup date [Tue May 17 14:07:56 ICT 2016]; root of context hierarchy
+05-17-2016 2:07:56 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:07:57 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:07:57 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:07:57 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:08:01 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:08:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:08:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:08:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:09 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:08:11 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:08:11 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:11 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:11 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "false": By.xpath: //button[@title='close']}
+05-17-2016 2:08:11 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:08:11 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:04 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:09:04 ICT 2016]; root of context hierarchy
+05-17-2016 2:09:04 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:09:05 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:09:05 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:09:05 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:09:10 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:09:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:09:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:09:29 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7e276594: startup date [Tue May 17 14:09:29 ICT 2016]; root of context hierarchy
+05-17-2016 2:09:29 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:09:30 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:09:30 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:09:30 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:09:35 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:10:13 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:10:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:13 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "false": By.xpath: //button[@title='close']}
+05-17-2016 2:10:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:17 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:10:17 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:17 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:17 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "false": By.xpath: //button[@title='close']}
+05-17-2016 2:10:17 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:10:17 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:14 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7e276594: startup date [Tue May 17 14:11:14 ICT 2016]; root of context hierarchy
+05-17-2016 2:11:14 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:11:15 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:11:15 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:11:16 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:11:21 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:11:28 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:11:28 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:28 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:28 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:11:28 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:28 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:29 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:11:29 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:30 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:11:30 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:13:25 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5066d65f: startup date [Tue May 17 14:13:25 ICT 2016]; root of context hierarchy
+05-17-2016 2:13:25 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:13:26 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:13:26 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:13:26 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:13:33 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:13:38 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:13:38 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:13:38 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:13:38 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:13:39 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:39 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:39 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:39 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:39 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:39 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:39 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:39 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:40 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:40 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:57 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "Ti?ng Vi?t": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "Ti?ng Vi?t": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:13:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:05 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:05 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "Ti?ng Vi?t": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "Ti?ng Vi?t": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:07 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:14:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:14:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:14:07 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:14:07 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:07 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "Ti?ng Vi?t": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:10 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:10 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:10 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:10 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "Ti?ng Vi?t": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:14:10 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:10 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:14:13 PM [INFO] - com.loginium.element.Element [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:14:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:14:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 16 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:18:04 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bccb269: startup date [Tue May 17 14:18:04 ICT 2016]; root of context hierarchy
+05-17-2016 2:18:04 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:18:05 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:18:05 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:18:05 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:18:10 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:18:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:18:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:18:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:18:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:19:57 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bccb269: startup date [Tue May 17 14:19:57 ICT 2016]; root of context hierarchy
+05-17-2016 2:19:57 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:19:57 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:19:57 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:19:58 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:20:02 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:20:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:20:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:20:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:20:07 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:20:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:20:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:20:07 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:20:08 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:20:08 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:20:08 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:20:08 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:20:09 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:20:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:20:09 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:20:09 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:20:10 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:20:10 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:20:10 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:20:10 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:20:11 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:20:11 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:20:11 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:20:11 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:20:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:20:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:20:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:20:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:20:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:20:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:20:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:20:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:20:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:20:15 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:24:14 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:24:14 ICT 2016]; root of context hierarchy
+05-17-2016 2:24:14 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:24:15 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:24:15 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:24:15 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:24:20 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:24:23 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:24:24 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:24:25 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:24:25 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:24:25 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:24:25 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:24:26 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:24:26 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:24:26 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:24:26 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:24:27 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:24:27 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:24:27 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:24:27 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:24:28 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:24:28 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:24:28 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:24:28 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:24:29 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:24:29 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:24:29 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:24:29 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:24:30 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:24:30 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:24:30 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:24:30 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:24:31 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:24:31 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:24:31 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:24:31 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:24:32 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:24:33 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:26:48 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:26:48 ICT 2016]; root of context hierarchy
+05-17-2016 2:26:48 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:26:49 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:26:49 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:26:49 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:26:54 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:26:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:26:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:26:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:26:59 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:26:59 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:26:59 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:26:59 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:27:00 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:27:00 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:27:00 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:27:00 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:27:01 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:27:01 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:27:01 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:27:01 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:27:02 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:27:02 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:27:02 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:27:02 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:27:03 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:27:03 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:27:04 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:27:04 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:27:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:27:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:27:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:27:05 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:27:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:27:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:27:06 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:27:06 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:27:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:27:07 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:27:24 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:27:24 ICT 2016]; root of context hierarchy
+05-17-2016 2:27:24 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:27:25 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:27:25 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:27:25 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:27:30 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:34 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:27:35 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:48:47 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:48:47 ICT 2016]; root of context hierarchy
+05-17-2016 2:48:47 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:48:47 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:48:47 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:48:48 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:48:52 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:48:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:48:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Trang ch?']}
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Trang ch?']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Trang ch?']]
+05-17-2016 2:48:56 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Trang ch?']}
+05-17-2016 2:48:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Cá nhân']}
+05-17-2016 2:48:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Cá nhân']]
+05-17-2016 2:48:57 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Cá nhân']]
+05-17-2016 2:48:57 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Cá nhân']}
+05-17-2016 2:48:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Doanh nghi?p']}
+05-17-2016 2:48:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Doanh nghi?p']]
+05-17-2016 2:48:58 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Doanh nghi?p']]
+05-17-2016 2:48:58 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Doanh nghi?p']}
+05-17-2016 2:48:59 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='??nh ch? tài chính']}
+05-17-2016 2:48:59 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='??nh ch? tài chính']]
+05-17-2016 2:48:59 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='??nh ch? tài chính']]
+05-17-2016 2:48:59 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='??nh ch? tài chính']}
+05-17-2016 2:49:00 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Ngân hàng ?i?n t?']}
+05-17-2016 2:49:00 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Ngân hàng ?i?n t?']]
+05-17-2016 2:49:00 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Ngân hàng ?i?n t?']]
+05-17-2016 2:49:00 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Ngân hàng ?i?n t?']}
+05-17-2016 2:49:01 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Tuy?n d?ng']}
+05-17-2016 2:49:01 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Tuy?n d?ng']]
+05-17-2016 2:49:01 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Tuy?n d?ng']]
+05-17-2016 2:49:01 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Tuy?n d?ng']}
+05-17-2016 2:49:02 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Nhà ??u t?']}
+05-17-2016 2:49:02 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Nhà ??u t?']]
+05-17-2016 2:49:02 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Nhà ??u t?']]
+05-17-2016 2:49:02 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Nhà ??u t?']}
+05-17-2016 2:49:03 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Gi?i thi?u']}
+05-17-2016 2:49:03 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Gi?i thi?u']]
+05-17-2016 2:49:03 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Gi?i thi?u']]
+05-17-2016 2:49:03 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Gi?i thi?u']}
+05-17-2016 2:49:04 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:49:05 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 2:51:46 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 14:51:46 ICT 2016]; root of context hierarchy
+05-17-2016 2:51:46 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 2:51:46 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 2:51:46 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 2:51:47 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:51:51 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 2:51:54 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:51:54 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:54 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:54 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:51:54 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:54 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:54 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:51:54 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 2:51:55 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 3:11:41 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@bccb269: startup date [Tue May 17 15:11:41 ICT 2016]; root of context hierarchy
+05-17-2016 3:11:41 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 3:11:42 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 3:11:42 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 3:11:42 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 3:11:46 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:50 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 3:11:50 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:51 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:51 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:11:51 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:51 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:11:51 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:11:51 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 3:11:51 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 3:11:51 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 3:11:51 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]
+05-17-2016 3:12:00 PM [INFO] - org.springframework.context.support.ClassPathXmlApplicationContext - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6913c1fb: startup date [Tue May 17 15:12:00 ICT 2016]; root of context hierarchy
+05-17-2016 3:12:00 PM [INFO] - org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [BrowserSetting.xml]
+05-17-2016 3:12:01 PM [INFO] - org.springframework.beans.factory.config.PropertyPlaceholderConfigurer - Loading properties file from file [C:\Users\thanh.viet.le\workspace\CheeseCake\CaramelPopcorn\target\classes\BrowserSetting.properties]
+05-17-2016 3:12:01 PM [INFO] - org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+05-17-2016 3:12:01 PM [INFO] - com.loginium.driver.factory.DriverFactory - Executing: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 3:12:06 PM [INFO] - com.loginium.driver.factory.DriverFactory - Done: [create new Driver {browserName: FIREFOX, version: 44, platform: WINDOWS}]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get text: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got text value "English": By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:12:12 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //a[@id='ctl00_Header_LanguageSwitcher_LanguageLink']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {get Displayed status: By.xpath: //button[@title='close']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {got Displayed status "true": By.xpath: //button[@title='close']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //button[@title='close']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {click: By.xpath: //button[@title='close']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Home']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Home']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Personal']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Personal']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Corporates']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Corporates']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Financial Institutions']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Financial Institutions']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='E-Banking']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='E-Banking']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Careers']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Careers']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 3:12:13 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='Investors']]
+05-17-2016 3:12:14 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='Investors']}
+05-17-2016 3:12:14 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 3:12:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 3:12:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [find element: By.xpath: //a[text()='About VCB']]
+05-17-2016 3:12:14 PM [INFO] - com.loginium.element.Element [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: {move to: By.xpath: //a[text()='About VCB']}
+05-17-2016 3:12:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Executing: [quit browser]
+05-17-2016 3:12:14 PM [INFO] - com.loginium.driver.DriverBase [Thread ID: 13 - LOCAL - WINDOWS - FIREFOX] - Done: [quit browser]

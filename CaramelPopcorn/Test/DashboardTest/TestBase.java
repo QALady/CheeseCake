@@ -28,12 +28,12 @@ public abstract class TestBase {
 	public void beforeMethod(String driverSettingID) throws MalformedURLException, UnexpectedException {
 		driverSetting = (DriverSetting) context.getBean(driverSettingID);
 		DriverManager.createWebDriver(driverSetting);
-		DriverManager.getWebDriver().manage().window().maximize();
-		DriverManager.getWebDriver().get("http://192.168.171.236/TADashboard/login.jsp");
+//		DriverManager.getWebDriver().manage().window().maximize();
+		DriverManager.getDriver().get("http://192.168.171.236/TADashboard/login.jsp");
 	}
 
 	@AfterMethod
 	public void afterMethod(ITestResult tr) {		
-		DriverManager.getWebDriver().quit();
+		DriverManager.getDriver().quit();
 	}
 }
