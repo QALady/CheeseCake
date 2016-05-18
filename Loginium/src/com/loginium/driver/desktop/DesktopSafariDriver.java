@@ -13,17 +13,17 @@ import com.loginium.driver.DriverSetting;
 
 public class DesktopSafariDriver extends DriverBase {
 
-	public DesktopSafariDriver(DriverSetting driverSetting) throws MalformedURLException {
-		super(driverSetting);
+  public DesktopSafariDriver(DriverSetting driverSetting) throws MalformedURLException {
+    super(driverSetting);
 
-		if (driverSetting.getRemoteURL() == null || driverSetting.getRemoteURL().equals("")) {
-			setWebDriver(new SafariDriver());
-		} else {
+    if (driverSetting.getRemoteURL() == null || driverSetting.getRemoteURL().equals("")) {
+      setWebDriver(new SafariDriver());
+    } else {
 
-			DesiredCapabilities capabilities = DesiredCapabilities.safari();
-			capabilities.setVersion(driverSetting.getBrowserVersion());
-			capabilities.setCapability(CapabilityType.PLATFORM, driverSetting.getPlatform());
-			setWebDriver(new RemoteWebDriver(new URL(driverSetting.getRemoteURL()), capabilities));
-		}
-	}
+      DesiredCapabilities capabilities = DesiredCapabilities.safari();
+      capabilities.setVersion(driverSetting.getBrowserVersion());
+      capabilities.setCapability(CapabilityType.PLATFORM, driverSetting.getPlatform());
+      setWebDriver(new RemoteWebDriver(new URL(driverSetting.getRemoteURL()), capabilities));
+    }
+  }
 }

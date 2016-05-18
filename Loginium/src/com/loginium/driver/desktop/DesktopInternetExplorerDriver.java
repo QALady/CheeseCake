@@ -13,17 +13,17 @@ import com.loginium.driver.DriverSetting;
 
 public class DesktopInternetExplorerDriver extends DriverBase {
 
-	public DesktopInternetExplorerDriver(DriverSetting driverSetting) throws MalformedURLException {
-		super(driverSetting);
-		if (driverSetting.getRemoteURL() == null || driverSetting.getRemoteURL().equals("")) {			
-			log.info("Picking up Internet Explorer executable at " + driverSetting.getExecutablePath());
-			System.setProperty("webdriver.ie.driver", driverSetting.getExecutablePath());
-			setWebDriver(new InternetExplorerDriver());
-		} else {
-			DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-			capabilities.setVersion(driverSetting.getBrowserVersion());
-			capabilities.setCapability(CapabilityType.PLATFORM, driverSetting.getPlatform());
-			setWebDriver(new RemoteWebDriver(new URL(driverSetting.getRemoteURL()), capabilities));
-		}
-	}
+  public DesktopInternetExplorerDriver(DriverSetting driverSetting) throws MalformedURLException {
+    super(driverSetting);
+    if (driverSetting.getRemoteURL() == null || driverSetting.getRemoteURL().equals("")) {
+      log.info("Picking up Internet Explorer executable at " + driverSetting.getExecutablePath());
+      System.setProperty("webdriver.ie.driver", driverSetting.getExecutablePath());
+      setWebDriver(new InternetExplorerDriver());
+    } else {
+      DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+      capabilities.setVersion(driverSetting.getBrowserVersion());
+      capabilities.setCapability(CapabilityType.PLATFORM, driverSetting.getPlatform());
+      setWebDriver(new RemoteWebDriver(new URL(driverSetting.getRemoteURL()), capabilities));
+    }
+  }
 }

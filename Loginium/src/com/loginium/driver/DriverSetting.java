@@ -7,68 +7,68 @@ import com.loginium.LoginiumConstants.Platform;
 
 public class DriverSetting {
 
-	private Browser browserName;
-	private String browserVersion;
-	private Platform platform;
-	private String platformVersion;
-	private String remoteURL;
-	private String deviceName;
-	private String executablePath;
-	
-	public Browser getBrowserName() {
-		return browserName;
-	}
+  private Browser browserName;
+  private String browserVersion;
+  private Platform platform;
+  private String platformVersion;
+  private String remoteURL;
+  private String deviceName;
+  private String executablePath;
 
-	public void setBrowserName(Browser browserName) {
-		this.browserName = browserName;
-	}
+  public Browser getBrowserName() {
+    return browserName;
+  }
 
-	public String getBrowserVersion() {
-		return browserVersion;
-	}
+  public void setBrowserName(Browser browserName) {
+    this.browserName = browserName;
+  }
 
-	public void setBrowserVersion(String browserVersion) {
-		this.browserVersion = browserVersion;
-	}
+  public String getBrowserVersion() {
+    return browserVersion;
+  }
 
-	public Platform getPlatform() {
-		return platform;
-	}
+  public void setBrowserVersion(String browserVersion) {
+    this.browserVersion = browserVersion;
+  }
 
-	public void setPlatform(Platform platform) {
-		this.platform = platform;
-	}
+  public Platform getPlatform() {
+    return platform;
+  }
 
-	public String getPlatformVersion() {
-		return platformVersion;
-	}
+  public void setPlatform(Platform platform) {
+    this.platform = platform;
+  }
 
-	public void setPlatformVersion(String platformVersion) {
-		this.platformVersion = platformVersion;
-	}
+  public String getPlatformVersion() {
+    return platformVersion;
+  }
 
-	public String getRemoteURL() {
-		return remoteURL;
-	}
+  public void setPlatformVersion(String platformVersion) {
+    this.platformVersion = platformVersion;
+  }
 
-	public void setRemoteURL(String remoteURL) {
-		this.remoteURL = remoteURL;
-	}
+  public String getRemoteURL() {
+    return remoteURL;
+  }
 
-	public String getDeviceName() {
-		return deviceName;
-	}
+  public void setRemoteURL(String remoteURL) {
+    this.remoteURL = remoteURL;
+  }
 
-	public void setDeviceName(String deviceName) {
-		this.deviceName = deviceName;
-	}
-	
-	public String getExecutablePath() {	
-		return executablePath;
-	}
+  public String getDeviceName() {
+    return deviceName;
+  }
 
-	public void setExecutablePath(String pathToExecutable) {
-		File file = new File("");		
-		this.executablePath = file.getAbsolutePath() + pathToExecutable;
-	}
+  public void setDeviceName(String deviceName) {
+    this.deviceName = deviceName;
+  }
+
+  public String getExecutablePath() {
+    return executablePath;
+  }
+
+  public void setExecutablePath(String pathToExecutable) {
+    File file = new File("");
+    this.executablePath = file.getAbsolutePath() + pathToExecutable;
+  }
 }

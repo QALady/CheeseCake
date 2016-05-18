@@ -13,17 +13,17 @@ import com.loginium.driver.DriverSetting;
 
 public class DesktopFireFoxDriver extends DriverBase {
 
-	public DesktopFireFoxDriver(DriverSetting driverSetting) throws MalformedURLException {
-		super(driverSetting);
+  public DesktopFireFoxDriver(DriverSetting driverSetting) throws MalformedURLException {
+    super(driverSetting);
 
-		if (driverSetting.getRemoteURL() == null || driverSetting.getRemoteURL().equals("")) {
-			setWebDriver(new FirefoxDriver());
-		} else {
-			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-			capabilities.setVersion(driverSetting.getBrowserVersion());
-			capabilities.setCapability(CapabilityType.PLATFORM, driverSetting.getPlatform());
+    if (driverSetting.getRemoteURL() == null || driverSetting.getRemoteURL().equals("")) {
+      setWebDriver(new FirefoxDriver());
+    } else {
+      DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+      capabilities.setVersion(driverSetting.getBrowserVersion());
+      capabilities.setCapability(CapabilityType.PLATFORM, driverSetting.getPlatform());
 
-			setWebDriver(new RemoteWebDriver(new URL(driverSetting.getRemoteURL()), capabilities));
-		}
-	}
+      setWebDriver(new RemoteWebDriver(new URL(driverSetting.getRemoteURL()), capabilities));
+    }
+  }
 }

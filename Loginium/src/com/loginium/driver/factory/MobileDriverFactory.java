@@ -10,19 +10,19 @@ import com.loginium.driver.mobile.MobileIOSDriver;
 
 public class MobileDriverFactory extends DriverFactory {
 
-	@Override
-	public Driver initWebDriver(DriverSetting driverSetting) throws MalformedURLException {
-		Driver driver = null;
+  @Override
+  public Driver initWebDriver(DriverSetting driverSetting) throws MalformedURLException {
+    Driver driver = null;
 
-		if (driverSetting.getPlatform() == Platform.IOS)
-			driver = new MobileIOSDriver(driverSetting);
-		else if (driverSetting.getPlatform() == Platform.ANDROID)
-			driver = new MobileAndroidDriver(driverSetting);
-		else {
-			System.out.printf("Cannot create Mobile driver for browser %s with remote URL %s.\n",
-					driverSetting.getBrowserName(), driverSetting.getRemoteURL());
-		}
+    if (driverSetting.getPlatform() == Platform.IOS)
+      driver = new MobileIOSDriver(driverSetting);
+    else if (driverSetting.getPlatform() == Platform.ANDROID)
+      driver = new MobileAndroidDriver(driverSetting);
+    else {
+      System.out.printf("Cannot create Mobile driver for browser %s with remote URL %s.\n",
+          driverSetting.getBrowserName(), driverSetting.getRemoteURL());
+    }
 
-		return driver;
-	}
+    return driver;
+  }
 }
